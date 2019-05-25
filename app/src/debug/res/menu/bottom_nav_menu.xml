@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_information"
+        android:enabled="true"
+        android:icon="@drawable/lightbulb_on_outline"
+        android:title="Info"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_task"
+        android:enabled="true"
+        android:icon="@drawable/landmark_logo"
+        android:title="Landmark"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_task_done"
+        android:enabled="true"
+        android:icon="@drawable/label_logo"
+        android:title="Label"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_user"
+        android:enabled="true"
+        android:icon="@drawable/web_logo"
+        android:title="Web"
+        app:showAsAction="ifRoom" />
+</menu>
