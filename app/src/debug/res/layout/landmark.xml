@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/landmark"
+            android:textColor="#4285f4"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="right"
+            android:id="@+id/landmarkScore"
+            android:textColor="#616161"/>
+    </LinearLayout>
+    <com.example.destinationrecognizer.view.CustomMapView
+        android:id="@+id/landmarkMap"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/latLng"
+        android:text="lat"
+        android:textSize="10sp"
+        android:textColor="#616161"
+        android:layout_marginBottom="30dp"/>
+</LinearLayout>
