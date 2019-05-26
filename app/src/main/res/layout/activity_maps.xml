@@ -6,10 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.destinationrecognizer.MainActivity">
 
-<<<<<<< HEAD
-=======
-    F
->>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
+
     <com.example.destinationrecognizer.view.AutoFitTextureView
         android:id="@+id/textureView"
         android:layout_width="wrap_content"

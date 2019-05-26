@@ -56,12 +56,8 @@
                 android:layout_width="22dp"
                 android:layout_height="17dp"
                 android:paddingLeft="@dimen/album_title_padding"
-<<<<<<< HEAD
                 android:src="@drawable/marker_home"
                 />
-=======
-                android:src="@drawable/marker_home" />
->>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
 
             <ImageView
                 android:id="@+id/overflow"

@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-<<<<<<< HEAD
 import com.example.destinationrecognizer.DetailActivity;
 import com.example.destinationrecognizer.R;
 import com.example.destinationrecognizer.VisionActivity;
@@ -20,27 +19,16 @@ import java.util.List;
 public class InformationFragment extends Fragment {
     private View rootView;
     private TextView infoNotFound;
-=======
-import com.example.destinationrecognizer.R;
-import com.example.destinationrecognizer.VisionActivity;
-
-public class InformationFragment extends Fragment {
-    private View rootView;
->>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
     private TextView namaPariwisata;
     private TextView alamat;
     private TextView deskripsi;
     private TextView luasArea;
     private TextView fasilitas;
-<<<<<<< HEAD
     private TextView alamat_label;
     private TextView deskripsi_label;
     private TextView luas_label;
     private TextView fasilitas_label;
     private List<LandmarkModel> landmarks;
-
-=======
->>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
 
     public InformationFragment() {}
 
@@ -58,16 +46,12 @@ public class InformationFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-<<<<<<< HEAD
         infoNotFound = (TextView)rootView.findViewById(R.id.infoNotFound);
-=======
->>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
         namaPariwisata = (TextView)rootView.findViewById(R.id.nama_pariwisata);
         alamat = (TextView)rootView.findViewById(R.id.alamat_pariwisata);
         deskripsi = (TextView)rootView.findViewById(R.id.deskripsi_pariwisata);
         luasArea = (TextView)rootView.findViewById(R.id.luas_area_pariwisata);
         fasilitas = (TextView)rootView.findViewById(R.id.fasilitas_pariwisata);
-<<<<<<< HEAD
         alamat_label = (TextView)rootView.findViewById(R.id.alamat_label);
         deskripsi_label = (TextView)rootView.findViewById(R.id.deskripsi_label);
         luas_label = (TextView)rootView.findViewById(R.id.luas_label);
@@ -95,15 +79,5 @@ public class InformationFragment extends Fragment {
             luas_label.setVisibility(View.GONE);
             fasilitas_label.setVisibility(View.GONE);
         }
-=======
-
-        namaPariwisata.setText(((VisionActivity) getActivity()).getVisionModel().getVisionName());
-        alamat.setText(((VisionActivity) getActivity()).getVisionModel().getAlamat());
-        deskripsi.setText(((VisionActivity) getActivity()).getVisionModel().getDeskripsi());
-        luasArea.setText(((VisionActivity) getActivity()).getVisionModel().getLuasArea());
-        fasilitas.setText(((VisionActivity) getActivity()).getVisionModel().getFasilitas());
-
-
->>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
     }
 }

@@ -1,9 +1,5 @@
 <resources>
-<<<<<<< HEAD
     <string name="app_name">Tourism Vision</string>
-=======
-    <string name="app_name">Destination Recognizer</string>
->>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
     <string name="title_activity_maps">Map</string>
     <string name="action_settings">Settings</string>
     <string name="action_add_favourite">Add to Favourites</string>

@@ -19,7 +19,6 @@ public class VisionModel1 {
 
     private String vision_name;
     private String alamat;
-<<<<<<< HEAD
     private String type;
     private String deskripsi;
     private String price;
@@ -39,24 +38,6 @@ public class VisionModel1 {
     public String getPrice(){return this.price;}
     public String getImageBase64(){return this.imageBase64;}
 
-=======
-    private String luas_area;
-    private String deskripsi;
-    @SerializedName("fasilitas_aktivitas")
-    private String fasilitas;
-
-    public void setVisionName(String vision_name){this.vision_name = vision_name;}
-    public void setAlamat(String alamat){this.alamat = alamat;}
-    public void setLuasArea(String luas_area){this.luas_area = luas_area;}
-    public void setDeskripsi(String deskripsi){this.deskripsi = deskripsi;}
-    public void setFasilitas(String fasilitas){this.fasilitas = fasilitas;}
-
-    public String getVisionName(){return this.vision_name;}
-    public String getAlamat(){return this.alamat;}
-    public String getLuasArea(){return this.luas_area;}
-    public String getDeskripsi(){return this.deskripsi;}
-    public String getFasilitas(){return this.fasilitas;}
->>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
 
     public void setLandmark(List<LandmarkModel> landmarks){
         this.landmark = landmarks;

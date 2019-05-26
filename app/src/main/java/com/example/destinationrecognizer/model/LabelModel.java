@@ -2,7 +2,6 @@ package com.example.destinationrecognizer.model;
 
 import com.google.gson.annotations.SerializedName;
 
-<<<<<<< HEAD
 import java.io.Serializable;
 
 public class LabelModel implements Serializable {
@@ -11,12 +10,6 @@ public class LabelModel implements Serializable {
     private String name;
 
     @SerializedName("score")
-=======
-public class LabelModel {
-
-    @SerializedName("label_name")
-    private String name;
->>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
     private float score;
 
     public void setName(String name){

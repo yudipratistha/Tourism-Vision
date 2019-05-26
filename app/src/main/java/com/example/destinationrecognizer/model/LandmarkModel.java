@@ -2,18 +2,13 @@ package com.example.destinationrecognizer.model;
 
 import com.google.gson.annotations.SerializedName;
 
-<<<<<<< HEAD
 import java.io.Serializable;
 
 public class LandmarkModel implements Serializable {
-=======
-public class LandmarkModel {
->>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
 
     @SerializedName("landmark_name")
     private String name;
 
-<<<<<<< HEAD
     @SerializedName("score")
     private float score;
 
@@ -30,19 +25,7 @@ public class LandmarkModel {
     @SerializedName("y3") private float y3;
     @SerializedName("x4") private float x4;
     @SerializedName("y4") private float y4;
-=======
-    private float score;
-    private double lat;
-    private double lng;
-    private float x1;
-    private float y1;
-    private float x2;
-    private float y2;
-    private float x3;
-    private float y3;
-    private float x4;
-    private float y4;
->>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
+
 
     public void setX1(float x){ this.x1 = x; }
     public float getX1(){
