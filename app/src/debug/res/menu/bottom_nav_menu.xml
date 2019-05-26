@@ -2,12 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+<<<<<<< HEAD
         android:id="@+id/nav_information"
         android:enabled="true"
         android:icon="@drawable/lightbulb_on_outline"
         android:title="Info"
         app:showAsAction="ifRoom" />
     <item
+=======
+>>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
         android:id="@+id/nav_task"
         android:enabled="true"
         android:icon="@drawable/landmark_logo"
@@ -25,4 +28,13 @@
         android:icon="@drawable/web_logo"
         android:title="Web"
         app:showAsAction="ifRoom" />
+<<<<<<< HEAD
+=======
+    <item
+        android:id="@+id/nav_information"
+        android:enabled="true"
+        android:icon="@drawable/lightbulb_on_outline"
+        android:title="Info"
+        app:showAsAction="ifRoom" />
+>>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
 </menu>

@@ -13,6 +13,7 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+<<<<<<< HEAD
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
@@ -28,14 +29,25 @@ import com.example.destinationrecognizer.model.LandmarkModel;
 import com.example.destinationrecognizer.model.VisionModel;
 import com.example.destinationrecognizer.model.VisionModel1;
 import com.example.destinationrecognizer.model.VisionModelList;
+=======
+import android.util.TypedValue;
+import android.view.View;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
+import com.example.destinationrecognizer.adapter.DestinationsAdapter;
+>>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
 
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+=======
+>>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
@@ -43,9 +55,12 @@ public class MainActivity extends AppCompatActivity {
     private List<Destination> destinationList;
     private FloatingActionButton fab;
 
+<<<<<<< HEAD
     protected APIService service;
     private VisionModel1 visionModel;
 
+=======
+>>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,8 +72,11 @@ public class MainActivity extends AppCompatActivity {
         fab = findViewById(R.id.fab);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 
+<<<<<<< HEAD
         service = APIClient.getService();
         visionModel = new VisionModel1();
+=======
+>>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
         destinationList = new ArrayList<>();
         adapter = new DestinationsAdapter(this, destinationList);
 
@@ -120,6 +138,7 @@ public class MainActivity extends AppCompatActivity {
      * Adding few albums for testing
      */
     private void prepareAlbums() {
+<<<<<<< HEAD
         service.getAllData((float) -8.637694, (float)115.22279)
             .enqueue(new Callback<VisionModelList>() {
                 @Override
@@ -149,12 +168,28 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Gagal 2" + t, Toast.LENGTH_LONG).show();
                 }
             });
+=======
+>>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
         int[] covers = new int[]{
                 R.drawable.bedugul,
                 R.drawable.tanahlot,
                 R.drawable.bajrasandhi,
                 R.drawable.liberty,
         };
+<<<<<<< HEAD
+=======
+
+        Destination a = new Destination("Bedugul", "Bali", covers[0]);
+        destinationList.add(a);
+        a = new Destination("Tanah Lot", "Bali", covers[1]);
+        destinationList.add(a);
+        a = new Destination("Bajrasandhi", "Bali", covers[2]);
+        destinationList.add(a);
+        a = new Destination("Patung Liberty", "USA", covers[3]);
+        destinationList.add(a);
+
+        adapter.notifyDataSetChanged();
+>>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
     }
 
     /**

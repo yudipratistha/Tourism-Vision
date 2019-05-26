@@ -13,7 +13,10 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
+<<<<<<< HEAD
         android:largeHeap="true"
+=======
+>>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -42,7 +45,10 @@
         </activity>
         <activity android:name="com.example.destinationrecognizer.MapsActivity"></activity>
         <activity android:name="com.example.destinationrecognizer.VisionActivity"></activity>
+<<<<<<< HEAD
         <activity android:name="com.example.destinationrecognizer.DetailActivity"></activity>
+=======
+>>>>>>> 730fa9ab3fe5d6d8c58fccd2fb1adcf83ea7d344
     </application>
 
 </manifest>
