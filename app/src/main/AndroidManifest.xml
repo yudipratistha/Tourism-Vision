@@ -34,12 +34,13 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="com.example.destinationrecognizer.MainActivity">
+        <activity android:name="com.example.destinationrecognizer.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.destinationrecognizer.MainActivity"></activity>
         <activity android:name="com.example.destinationrecognizer.MapsActivity"></activity>
         <activity android:name="com.example.destinationrecognizer.VisionActivity"></activity>
         <activity android:name="com.example.destinationrecognizer.DetailActivity"></activity>
