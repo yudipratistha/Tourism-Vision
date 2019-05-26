@@ -40,14 +40,19 @@
         android:textColor="#4285f4"
         android:text="Address"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/textview_border"
         android:id="@+id/alamat_pariwisata"
         android:textSize="17sp"
         android:paddingBottom="10dp"
         android:text="Jalan Danau Tondano No.58A"/>
 
     <TextView
+        android:layout_marginTop="10dp"
         android:id="@+id/luas_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -55,14 +60,19 @@
         android:textColor="#4285f4"
         android:text="Type"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/textview_border"
         android:id="@+id/luas_area_pariwisata"
         android:textSize="17sp"
         android:paddingBottom="10dp"
         android:text="Luas Area:"/>
 
     <TextView
+        android:layout_marginTop="10dp"
         android:id="@+id/deskripsi_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -70,14 +80,19 @@
         android:textColor="#4285f4"
         android:text="Description"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/textview_border"
         android:textSize="17sp"
         android:paddingBottom="10dp"
         android:id="@+id/deskripsi_pariwisata"
         android:text="Deskripsi:"/>
 
     <TextView
+        android:layout_marginTop="10dp"
         android:id="@+id/fasilitas_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -85,8 +100,12 @@
         android:textColor="#4285f4"
         android:text="Minimum Price"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/textview_border"
         android:textSize="17sp"
         android:id="@+id/fasilitas_pariwisata"
         android:text="Luas Area:"/>
